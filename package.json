@@ -37,6 +37,10 @@
     "typescript": "^4.5.4"
   },
   "dependencies": {
-    "@babel/preset-env": "^7.16.7"
+    "@babel/preset-env": "^7.16.7",
+    "@types/imap": "^0.8.35",
+    "@types/mailparser": "^3.4.0",
+    "imap": "^0.8.19",
+    "mailparser": "^3.4.0"
   }
 }
