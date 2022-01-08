@@ -5,7 +5,7 @@ describe('ImapReader', () => {
     it('should read valid mails', async () => {
       const reader = new ImapReader({
         user: 'martin.krizan@airway.cz',
-        password: '***REMOVED***',
+        password: '***',
         host: 'email.active24.com',
         port: 993,
         tls: true,
